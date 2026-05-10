@@ -6,8 +6,6 @@ import {
 import { db } from "./firebase";
 import * as XLSX from "xlsx";
 
-const DEFAULT_ATTENDANTS = ["Gate A", "Gate B", "Gate C"];
-const STUDENTS_DOC = "config/students";
 const ATTENDANTS_DOC = "config/attendants";
 
 const formatDateDisplay = (d) => {
